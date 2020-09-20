@@ -65,26 +65,37 @@
 
 #[cfg(feature = "animation")]
 pub use amethyst_animation as animation;
+#[cfg(feature = "assets")]
 pub use amethyst_assets as assets;
 #[cfg(feature = "audio")]
 pub use amethyst_audio as audio;
+#[cfg(feature = "config")]
 pub use amethyst_config as config;
+#[cfg(feature = "controls")]
 pub use amethyst_controls as controls;
+#[cfg(feature = "core")]
 pub use amethyst_core as core;
+#[cfg(feature = "derive")]
 pub use amethyst_derive as derive;
+#[cfg(feature = "error")]
 pub use amethyst_error as error;
 #[cfg(feature = "gltf")]
 pub use amethyst_gltf as gltf;
+#[cfg(feature = "input")]
 pub use amethyst_input as input;
 #[cfg(feature = "locale")]
 pub use amethyst_locale as locale;
 #[cfg(feature = "network")]
 pub use amethyst_network as network;
+#[cfg(feature = "rendy")]
 pub use amethyst_rendy as renderer;
 #[cfg(feature = "tiles")]
 pub use amethyst_tiles as tiles;
+#[cfg(feature = "ui")]
 pub use amethyst_ui as ui;
+#[cfg(feature = "utils")]
 pub use amethyst_utils as utils;
+#[cfg(feature = "window")]
 pub use amethyst_window as window;
 pub use winit;
 
